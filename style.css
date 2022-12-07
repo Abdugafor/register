@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #ff7978;
+    background-image: url(/images/bg-intro-desktop.png);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1224px;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+
+.right-bar {
+    float: left;
+    width: 500px;
+    
+}
+
+.right-bar h1 {
+    color: white;
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.right-bar p {
+    color: white;
+    margin-top: 40px;
+}
+
+.left-bar {
+    float: right;
+    margin-left: 100px;
+}
+
+.free-trial {
+    color: white;
+    background: #5d54a3;
+    padding: 10px 30px;
+    border-radius: 9px;
+    font-size: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 20px 14px rgb(0 0 0 / 44%);
+}
+
+
+
+.register {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 9px;
+    width: 500px;
+}
+
+
+.register input{
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    width: 99%;
+    margin-top: 20px;
+    border: 1px solid rgb(167, 167, 167);
+    padding: 20px 30px;
+    border-radius: 9px;
+    font-family: inherit;
+    font-weight: 800;
+    outline: #5d54a3;
+}
+
+.register input:nth-child(5) {
+    background: rgb(77, 190, 32);
+    color: white;
+}
+
+.register input:nth-child(5):hover {
+    cursor: pointer;
+}
+
+.register p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.register b {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 1137px ) {
+    .container {
+        display: block;
+        max-width: 500px;
+        margin-top: 50px;
+    }
+
+    .left-bar {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 800px ) {
+
+    .container {
+        margin: 0 auto;
+        max-width: 400px;
+        margin-top: 50px;
+        height: 1100px;
+    }
+
+    .right-bar {
+        width: 100%;
+    }
+    
+    .right-bar h1 {
+        font-size: 40px;
+    }
+    .right-bar h1,
+    .right-bar p {
+        text-align: center;
+    }
+
+    .left-bar {
+        margin-top: 50px;
+    }
+
+    .register {
+        width: 90%;
+    }
+
+    .left-bar {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+}
