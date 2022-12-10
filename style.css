@@ -76,8 +76,9 @@ body {
 }
 
 .register input:nth-child(5) {
-    background: rgb(77, 190, 32);
+    background: #85bd6f);
     color: white;
+    border: none;
 }
 
 .register input:nth-child(5):hover {
