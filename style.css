@@ -8,7 +8,7 @@
 
 body {
     background: #ff7978;
-    background-image: url(bg-intro-desktop.png);
+    background-image: url(/bg-intro-desktop.png);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -16,10 +16,11 @@ body {
     max-width: 1224px;
     margin: 0 auto;
     margin-top: 300px;
+    display: flex;
+    align-items: center;
 }
 
 .right-bar {
-    float: left;
     width: 500px;
     
 }
@@ -36,7 +37,6 @@ body {
 }
 
 .left-bar {
-    float: right;
     margin-left: 100px;
 }
 
@@ -76,8 +76,9 @@ body {
 }
 
 .register input:nth-child(5) {
-    background: #60c737;
+    transition: all 0.5s;
     color: white;
+    background: rgba(16, 172, 76, 0.699);
     border: none;
 }
 
@@ -115,7 +116,7 @@ a {
 
     .container {
         margin: 0 auto;
-        max-width: 400px;
+        max-width: 359px;
         margin-top: 50px;
         height: 1100px;
     }
