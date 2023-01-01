@@ -15,14 +15,13 @@ body {
 .container {
     max-width: 1224px;
     margin: 0 auto;
-    margin-top: 300px;
+    margin-top: 160px;
     display: flex;
     align-items: center;
 }
 
 .right-bar {
     width: 500px;
-    
 }
 
 .right-bar h1 {
